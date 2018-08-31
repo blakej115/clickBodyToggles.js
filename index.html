@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clickBodyToggles.js</title>
+</head>
+<body>
+
+    <div>Be sure to open your dev tools so you can see the classes toggle.</div>
+    <br><br>
+
+    <div><a href="#menu">Menu (This toggles a body class of "menu-active")</a></div>
+    <br>
+    <div><a href="#search">Popup (This toggles a body class of "search-active")</a></div>
+
+    <script src="clickBodyToggles-min.js"></script>
+    <script>
+        addBodyToggle('menu');
+        addBodyToggle('search');
+    </script>
+
+</body>
+</html>

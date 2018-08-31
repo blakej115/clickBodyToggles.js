@@ -1,0 +1,1 @@
+function clickBodyToggle(e,o){e.preventDefault(),document.body.classList.toggle(o+"-active")}function addBodyToggle(e){for(var o=document.querySelectorAll('a[href="#'+e+'"]'),c=o.length,t=0;t<c;t+=1)o[t].addEventListener("click",function(o){clickBodyToggle(o,e)})}
